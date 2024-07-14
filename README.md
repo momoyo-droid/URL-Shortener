@@ -13,3 +13,7 @@ The project consist in two cases:
 2. API generates a short URL by randomizing characters in the range [A-Z], [a-z], [0-9], bringing the possibility of 62^7 shortened URLs
 3. Checks whether the long URL exists in cache (we can use Redis, for example). If yes, retrieve it from the cache. If not, add the two URLs (long and short) and their respective hash to the database.
 4. Returns the shortened URL to the user
+
+## Retrieve URL
+
+## Things to consider
