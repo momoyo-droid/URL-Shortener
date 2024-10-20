@@ -1,6 +1,6 @@
-package url
+package model
 
-type URL struct {
+type Request struct {
 	URL         string `json:"url"`
 	CustomAlias string `json:"custom_alias"`
 }
